@@ -1,3 +1,18 @@
+
+
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+call vundle#end()
+filetype plugin indent on
+
+
+"enable folding
+set foldenable
+"visual autocomplete for command menu
+set wildmenu
 "First entry
 set ruler
 set number
@@ -36,4 +51,6 @@ filetype plugin indent on
 set laststatus=2
 
 " Format the status line
+
+
 set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l 
