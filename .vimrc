@@ -1,1 +1,0 @@
-/Users/salat/.yadr/vimrc
